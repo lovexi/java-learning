@@ -1,0 +1,10 @@
+syntax = "proto3"; //protobuf version 3
+package netty.codec;
+option java_outer_classname = "StudentPOJO"; // the generated class name
+
+// the target message structure for class generation
+message Student {
+  // data type is defined https://developers.google.com/protocol-buffers/docs/proto3
+  int32 id = 1; // define one attribute int named id, 1 means the attribute number, not the value itself
+  string name = 2;
+}
