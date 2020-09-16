@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="book" class="spring.di.Book">
+        <!-- use property to do the attribute injection -->
+        <property name="bname" value="novel"/>
+        <property name="bauther" value="tom"/>
+        <property name="address">
+            <null></null>
+        </property>
+        <property name="city">
+            <value><![CDATA[<<Nanjing>>]]]></value>
+        </property>
+    </bean>
+</beans>

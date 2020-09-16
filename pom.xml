@@ -60,6 +60,15 @@
             <artifactId>protobuf-java</artifactId>
             <version>3.6.1</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.2.6.RELEASE</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
